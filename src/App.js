@@ -65,7 +65,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({ imageUrl: this.state.input });
-      fetch('http://localhost:3001/imageurl', {
+      fetch('https://practice-brain-api.onrender.com/imageurl', {
         method: 'post',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -76,7 +76,7 @@ class App extends Component {
       .then(result => {
         console.log(result);
         if (result) {
-          fetch('http://localhost:3001/image', {
+          fetch('https://practice-brain-api.onrender.com/image', {
             method: 'put',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
