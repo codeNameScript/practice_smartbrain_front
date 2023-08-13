@@ -1,10 +1,10 @@
 # This is a Project from a ZTM udemy course
-This app will detect the face of the image you input in the input field.
-If you want to try the app out. You can use the following to sign up as a guest.
-email: guest@gmail.com
-password: guest
-*The image should be a url
-example: an image of mona lisa from wikipedia
+This app will detect the face of the image you input in the input field.\
+If you want to try the app out. You can use the following to sign up as a guest.\
+email: guest@gmail.com\
+password: guest\
+The image should be a url\
+example: an image of mona lisa from wikipedia\
 https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Leonardo_da_Vinci_-_Mona_Lisa.jpg/300px-Leonardo_da_Vinci_-_Mona_Lisa.jpg
 
 # Getting Started with Create React App
